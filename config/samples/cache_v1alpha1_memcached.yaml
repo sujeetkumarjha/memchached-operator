@@ -1,0 +1,8 @@
+apiVersion: cache.example.com/v1alpha1
+kind: Memcached
+metadata:
+  labels:
+    app.kubernetes.io/instance: memcached-sample
+  name: memcached-sample
+spec:
+  size: 3
